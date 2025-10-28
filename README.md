@@ -8,4 +8,4 @@
 
 
 ## Build:
-`gcc -Wall "name.c" -o name -lm $(pkg-config --cflags --libs libpipewire-0.3)`
+`gcc -Wall name.c -o name -lm $(pkg-config --cflags --libs libpipewire-0.3)`

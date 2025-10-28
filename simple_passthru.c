@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
          */
         data.filter = pw_filter_new_simple(
                         pw_main_loop_get_loop(data.loop),
-                        "audio-filter",
+                        "Simple Passthru",
                         pw_properties_new(
                                 PW_KEY_MEDIA_TYPE, "Audio",
                                 PW_KEY_MEDIA_CATEGORY, "Filter",
